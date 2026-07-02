@@ -7,29 +7,61 @@
     <title>Главная – Корочка.ЕСТЬ</title>
 </head>
 <body>
-    <header>
-        <nav class="navbar">
-            <div class="container">
-                <h2>Корочка.ЕСТЬ</h2>
-                <div class="navbar-collapse">
-                    <a href="index.html" class="navbar-brand">Главная</a>
-                    <a href="login.html" class="navbar-brand">Войти</a>
-                </div>
+
+<header>
+    <nav class="navbar navbar-expand">
+        <div class="container d-flex align-items-center gap-3">
+            <img src="free-icon-open-book-182321.png" width="50" height="50">
+            <h2 class="mb-0">Корочка.ЕСТЬ</h2>
+            <div class="d-flex gap-3 ms-auto">
+                <a href="index.html" class="nav-link">Главная</a>
+                <a href="login.html" class="nav-link">Войти</a>
             </div>
-        </nav>
-    </header>
+        </div>
+    </nav>
+</header>
 
     <main class="pb-5">
         <div class="container">
             <div class="text-center">
                 <p class="display-6">Добро пожаловать в информационную систему Корочка.ЕСТЬ</p>
                 <div>
-                     <a href="login.html" class="btn btn-primory">Войти</a>
+                     <a href="login.html"  class="btn btn-primary">Войти</a>
                      <a href="register.html" class="btn btn-secondary">Еще не зарегистрированы? Регистрация</a>
                 </div>
             </div>
         </div>
+
+        <div id="mySlider" class="carousel slide" data-bs-ride="carousel" data-bs-interval="3000" data-bs-pause="hover">
+    
+    <div class="carousel-indicators">
+        <button type="button" data-bs-target="#mySlider" data-bs-slide-to="0" class="active"></button>
+        <button type="button" data-bs-target="#mySlider" data-bs-slide-to="1"></button>
+        <button type="button" data-bs-target="#mySlider" data-bs-slide-to="2"></button>
+    </div>
+
+    <div class="carousel-inner rounded-3 shadow">
+        <div class="carousel-item active">
+            <img src="photo_1.jpg" class="d-block w-100" style="height: 400px; object-fit: cover;" alt="Фото 1">
+        </div>
+        <div class="carousel-item">
+            <img src="photo_2.jpg" class="d-block w-100" style="height: 400px; object-fit: cover;" alt="Фото 2">
+        </div>
+        <div class="carousel-item">
+            <img src="photo_3.jpg" class="d-block w-100" style="height: 400px; object-fit: cover;" alt="Фото 3">
+        </div>
+    </div>
+
+    <button class="carousel-control-prev" type="button" data-bs-target="#mySlider" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#mySlider" data-bs-slide="next">
+        <span class="carousel-control-next-icon"></span>
+    </button>
+</div>
     </main>
+
+    
 
     <footer class="border-top footer text-muted mt-5">
         <div class="container">
